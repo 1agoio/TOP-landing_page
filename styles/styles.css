@@ -1,0 +1,27 @@
+body{
+    display: flex;
+}
+.header{
+    flex: 10;
+    display: flex;
+}
+.up-header{
+    flex: 1;
+}
+.down-header{
+    flex: 9;
+}
+.information{
+    flex: 7;
+}
+.inspiration-quote{
+    flex: 6;
+}
+.CTA{
+    flex: 4;
+}
+
+.footer{
+    flex: 1;
+
+}
