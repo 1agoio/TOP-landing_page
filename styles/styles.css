@@ -1,9 +1,12 @@
 body{
     display: flex;
+    flex-flow: column wrap;
 }
 .header{
     flex: 10;
     display: flex;
+    flex-flow: column wrap;
+    background: 1F2937;
 }
 .up-header{
     flex: 1;
