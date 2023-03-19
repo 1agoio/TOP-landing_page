@@ -1,0 +1,89 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.header .footer {
+    background-color: #1F2937;
+}
+.header{
+    flex: 1 1 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    color: white;
+}
+.up-header{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.header-image1{
+
+}
+.header-links{
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+    margin: 0;
+
+}
+.link-one .link-two .link-three{
+
+}
+.down-header{
+    flex: 1;
+    display: flex;
+    
+}
+.down-header-left{
+    display: flex;
+}
+
+.sign-up{
+    background-color: #3882F6;
+}
+.down-header-right{
+
+}
+.information{
+    flex: 1 1 400px;
+    display: flex;
+    flex-direction: column;
+   
+}
+.info-squares{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.inspiration-quote{
+    flex: 1 1 350px;
+    background-color: #E5E7EB;
+}
+.inspiring-quote{
+    font-style: italic;
+    font-weight: 300;
+    font-size: 36px;
+    color: #1F2937 ;
+}
+.CTA{
+    flex: 1 1 200px;
+}
+
+.footer{
+    flex: 1 1 50px;
+    background-color: #1F2937;
+    color: white;
+}
+.square{
+    height: 150px;
+    width: 150px;
+    border: solid blue;
+}
+.info{
+    align-self: center;
+}
