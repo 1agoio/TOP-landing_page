@@ -36,14 +36,20 @@ body{
 .down-header{
     flex: 1;
     display: flex;
-    
+    justify-content: center;
+    gap: 50px;
 }
 .down-header-left{
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
 }
 
 .sign-up{
     background-color: #3882F6;
+    width: 100px;
+    height: 50px;
 }
 .down-header-right{
 
