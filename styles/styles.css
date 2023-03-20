@@ -13,6 +13,7 @@ body{
     flex-direction: column;
     background-color: #1F2937;
     color: white;
+    align-self: stretch;
 }
 .up-header{
     flex: 1;
@@ -49,7 +50,11 @@ body{
 .sign-up{
     background-color: #3882F6;
     width: 100px;
-    height: 50px;
+    height: 30px;
+    border-radius: 10px;
+    color: white;
+    border-color: white;
+    
 }
 .down-header-right{
 
@@ -78,6 +83,7 @@ body{
 }
 .CTA{
     flex: 1 1 200px;
+    display: flex;
 }
 
 .footer{
@@ -89,7 +95,37 @@ body{
     height: 150px;
     width: 150px;
     border: solid blue;
+    border-radius: 25px;
 }
 .info{
+    font-size: 36px;
+    font-weight: 800;
+}
+.ins{
+    
+}
+.thor{
+    align-self: self-end;
+}
+.rect{
+    background-color: #3882F6;
+    width: 1500px;
+    height: 150px;
     align-self: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+    align-self: center;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+.right{
+    
 }
