@@ -49,9 +49,7 @@ body{
     border-color: white;
     
 }
-.down-header-right{
 
-}
 .information{
     flex: 1 1 400px;
     display: flex;
@@ -86,6 +84,8 @@ body{
     flex: 1 1 50px;
     background-color: #1F2937;
     color: white;
+    display: flex;
+    justify-content: center;
 }
 .square{
     height: 150px;
@@ -110,8 +110,6 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
     margin-left: 200px;
     align-self: center;
 }
@@ -123,4 +121,24 @@ body{
 }
 .information .info {
     align-self: center;
+}
+.ice{
+    height: 150px;
+    width: 150px;
+    border-radius: 23px;
+}
+.lightning{
+    height: 150px;
+    width: 150px;
+    border-radius: 23px;
+}
+.pink{
+    height: 150px;
+    width: 150px;
+    border-radius: 23px;
+}
+.uyuni{
+    height: 150px;
+    width: 150px;
+    border-radius: 23px;
 }
