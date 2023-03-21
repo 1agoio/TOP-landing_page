@@ -4,9 +4,6 @@ body{
     align-items: stretch;
 }
 
-.header .footer {
-    background-color: #1F2937;
-}
 .header{
     flex: 1 1 500px;
     display: flex;
@@ -21,9 +18,7 @@ body{
     justify-content: space-between;
     
 }
-.header-image1{
 
-}
 .header-links{
     display: flex;
     gap: 16px;
@@ -31,9 +26,7 @@ body{
     margin: 0;
 
 }
-.link-one .link-two .link-three{
 
-}
 .down-header{
     flex: 1;
     display: flex;
@@ -72,8 +65,11 @@ body{
     gap: 40px;
 }
 .inspiration-quote{
+    
     flex: 1 1 350px;
+    display: flex;
     background-color: #E5E7EB;
+    flex-direction: column;
 }
 .inspiring-quote{
     font-style: italic;
@@ -101,11 +97,10 @@ body{
     font-size: 36px;
     font-weight: 800;
 }
-.ins{
-    
-}
-.thor{
+
+.inspiration-quote .thor{
     align-self: self-end;
+    margin-right: 30px;
 }
 .rect{
     background-color: #3882F6;
@@ -126,6 +121,6 @@ body{
    
     
 }
-.right{
-    
+.information .info {
+    align-self: center;
 }
